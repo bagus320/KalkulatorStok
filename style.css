@@ -1,0 +1,48 @@
+.font-special {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 25px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 4s;
+  animation-timing-function: steps(100, end);
+  animation-fill-mode: forwards;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+:root {
+  --primary-wall: #1d1c1c;
+  --primary-background: #131212;
+  --secondary-color: #f5f5f5;
+  --input-color: #333131;
+  --text-color: #f5f5f5;
+  --border-color: #f5f5f5;
+}
+body {
+  background-color: var(--primary-wall);
+  color: var(--text-color);
+}
+.form-dark {
+  color: var(--text-color);
+  background-color: var(--input-color);
+}
+.special-btn {
+  border-radius: 10px;
+  background-color: #13142c;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+.special-btn:hover {
+  background-color: #10e2e2;
+  color: #13142c;
+}
