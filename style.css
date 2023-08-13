@@ -47,10 +47,8 @@ body {
   color: #13142c;
 }
 @media screen and (max-width: 376px) {
-    body {
-    }
-    .form-dark {
-        width: 150px;
-        height: 35px;
-    }
+  .form-dark {
+    width: 150px;
+    height: 35px;
   }
+}
